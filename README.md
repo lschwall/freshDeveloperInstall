@@ -4,13 +4,14 @@
 ### Table of Contents
 
 / [Description](#description)   
-/ [Program List](#program-list)
+/ [Base Program List](#base-program-list)  
+/ [Front End Specific](#front-end)
 
 ## Description
 List of programs to install when freshly setting up a computer for development.
 
 
-## Program List
+## Base Program List
 
 ###### Hyperlinks included in case you want to install via individual websites
  - [ ]  [HomeBrew.sh](https://brew.sh/)
@@ -39,7 +40,7 @@ List of programs to install when freshly setting up a computer for development.
 >*Optionally*, run this in iterm2 to install eslint  
 >``npm install -g eslint eslint-config-airbnb eslint-plugin-import``
 ---
-#### **Optional Extensions for vscode that I personally find nice**
+#### **Optional Extensions for vscode that are nice**
 >##### All of these can be found in vscode's extension panel (it looks like 4 squares with 1 coming off)
 > [Gitlens](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens) - lets you see who wrote the code  
 > [Material Icon Theme](https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme) - nicer icons  
@@ -64,4 +65,10 @@ List of programs to install when freshly setting up a computer for development.
  >``--install-extension xabikos.JavaScriptSnippets \``   
  >``--install-extension formulahendry.auto-rename-tag \``   
  >``--install-extension wayou.vscode-todo-highlight \``   
- >``--install-extension MS-vsliveshare.vsliveshare`` 
+ >``--install-extension MS-vsliveshare.vsliveshare``  
+---
+
+## Front End
+---
+## Back End
+---
