@@ -12,8 +12,6 @@
 ## Description
 Base programs for basic development environment setup. Additionally, you can find front end and back end specific programs users find useful in development.
 
----
-
 ## Base Program List
 
 ###### Hyperlinks included in case you want to install via individual websites
