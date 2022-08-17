@@ -1,15 +1,18 @@
 # Fresh Install Program List (Mac)
-###### v1.0.0
+###### v1.0.1
 
 ### Table of Contents
 
 / [Description](#description)   
 / [Base Program List](#base-program-list)  
-/ [Front End Specific](#front-end)
+/ [Front End Specific](#front-end)  
+/ [Back End Specific](#back-end)
 
+---
 ## Description
-List of programs to install when freshly setting up a computer for development.
+Base programs for basic development environment setup. Additionally, you can find front end and back end specific programs users find useful in development.
 
+---
 
 ## Base Program List
 
@@ -66,9 +69,8 @@ List of programs to install when freshly setting up a computer for development.
  >``--install-extension formulahendry.auto-rename-tag \``   
  >``--install-extension wayou.vscode-todo-highlight \``   
  >``--install-extension MS-vsliveshare.vsliveshare``  
----
 
 ## Front End
----
+
 ## Back End
 ---
