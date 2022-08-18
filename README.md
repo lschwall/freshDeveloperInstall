@@ -22,6 +22,7 @@ Base programs for basic development environment setup. Additionally, you can fin
  - [ ] [NodeJs](https://nodejs.org/en/)
  - [ ] [NVM](https://npm.github.io/installation-setup-docs/installing/using-a-node-version-manager.html)
  - [ ] [eslint](https://eslint.org/) (optional)
+ 
 
 > To install brew, copy this in your command terminal  
 > ``/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"``  
@@ -72,3 +73,11 @@ Base programs for basic development environment setup. Additionally, you can fin
 
 ## Back End
 ---
+
+
+## Additional Recommendations
+ - [DBeaver](https://dbeaver.io/) : Universal Database tool, see and edit your databases.
+ - [jEnv](https://www.jenv.be/) : CLI to manage global and project specific JAVA versions
+ - [bat](https://github.com/sharkdp/bat) : Like the cat command but with wings - Offers syntax highlighting and other features.
+ - [fzf](https://github.com/junegunn/fzf) : interactive Unix filter for command-line that can be used with any list; files, command history, processes, hostnames, bookmarks, git commits, etc.
+ - [exa](https://the.exa.website/) : A replacement for ls command with many features
