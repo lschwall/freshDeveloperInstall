@@ -5,6 +5,7 @@
 
 / [Description](#description)   
 / [Base Program List](#base-program-list)  
+/ [Optional Recommendations](#optional-recommendations)
 / [Front End Specific](#front-end)  
 / [Back End Specific](#back-end)
 
@@ -23,7 +24,6 @@ Base programs for basic development environment setup. Additionally, you can fin
  - [ ] [NVM](https://npm.github.io/installation-setup-docs/installing/using-a-node-version-manager.html)
  - [ ] [eslint](https://eslint.org/) (optional)
  
-
 > To install brew, copy this in your command terminal  
 > ``/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"``  
 > *make sure to check if there are any commands to run from the output*
@@ -69,15 +69,14 @@ Base programs for basic development environment setup. Additionally, you can fin
  >``--install-extension wayou.vscode-todo-highlight \``   
  >``--install-extension MS-vsliveshare.vsliveshare``  
 
-## Front End
-
-## Back End
----
-
-
-## Additional Recommendations
+ ## Optional Recommendations
  - [DBeaver](https://dbeaver.io/) : Universal Database tool, see and edit your databases.
  - [jEnv](https://www.jenv.be/) : CLI to manage global and project specific JAVA versions
  - [bat](https://github.com/sharkdp/bat) : Like the cat command but with wings - Offers syntax highlighting and other features.
  - [fzf](https://github.com/junegunn/fzf) : interactive Unix filter for command-line that can be used with any list; files, command history, processes, hostnames, bookmarks, git commits, etc.
  - [exa](https://the.exa.website/) : A replacement for ls command with many features
+
+## Front End
+
+## Back End
+---
