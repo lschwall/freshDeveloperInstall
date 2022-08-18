@@ -16,7 +16,8 @@ Base programs for basic development environment setup. Additionally, you can fin
 ## Base Program List
 
 ###### Hyperlinks included in case you want to install via individual websites
- - [ ]  [HomeBrew.sh](https://brew.sh/)
+ - [ ] [HomeBrew.sh](https://brew.sh/)
+ - [ ] [HomeBrew-Cask](https://github.com/Homebrew/homebrew-cask) - See [Program Install Command](#homebrew-cask-quick-install-list)
  - [ ] [Git](https://git-scm.com/)
  - [ ] [vsCode](https://code.visualstudio.com/download)
  - [ ] [iterm2](https://iterm2.com/)
@@ -48,13 +49,14 @@ Base programs for basic development environment setup. Additionally, you can fin
 > [Material Icon Theme](https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme) - nicer icons  
 > [Material Themes](https://marketplace.visualstudio.com/items?itemName=Equinusocio.vsc-material-theme) - nicer vscode ui/colors  
 > [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode) - formats code  
->[ Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) - can open local host and run ur code  
->[ ES7+ React/Redux/React-Native snippets](https://marketplace.visualstudio.com/items?itemName=dsznajder.es7-react-js-snippets) - autocomplete react code  
+> [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) - can open local host and run ur code  
+> [ES7+ React/Redux/React-Native snippets](https://marketplace.visualstudio.com/items?itemName=dsznajder.es7-react-js-snippets) - autocomplete react code  
 > [JavaScript (ES6) code snippets](https://marketplace.visualstudio.com/items?itemName=xabikos.JavaScriptSnippets) - autocomplete javascript code  
 > [Auto Rename Tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-rename-tag) - auto rename paired html tags  
 > [Auto Close Tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-close-tag) - auto closes html tags  
 > [TODO Highlight](https://marketplace.visualstudio.com/items?itemName=wayou.vscode-todo-highlight) - highlights items marked with //TODO  
->[ Live Share](https://marketplace.visualstudio.com/items?itemName=MS-vsliveshare.vsliveshare) - remote live code pairing (think google docs live editing)    
+> [Live Share](https://marketplace.visualstudio.com/items?itemName=MS-vsliveshare.vsliveshare) - remote live code pairing (think google docs live editing)
+> [Markdown Preview Enhanced](https://marketplace.visualstudio.com/items?itemName=shd101wyy.markdown-preview-enhanced) - Preview markdown files    
  
  >##### Alternatively you can just run this command in your terminal to install all of these
  >``code \``
@@ -67,16 +69,40 @@ Base programs for basic development environment setup. Additionally, you can fin
  >``--install-extension xabikos.JavaScriptSnippets \``   
  >``--install-extension formulahendry.auto-rename-tag \``   
  >``--install-extension wayou.vscode-todo-highlight \``   
- >``--install-extension MS-vsliveshare.vsliveshare``  
+ >``--install-extension MS-vsliveshare.vsliveshare \`` \
+ >``--install-extension shd101wyy.markdown-preview-enhanced ``  
 
  ## Optional Recommendations
+ #### Programs
  - [DBeaver](https://dbeaver.io/) : Universal Database tool, see and edit your databases.
+ #### Terminal Enhancements
+ - [zsh](https://formulae.brew.sh/formula/zsh) : Z Shell, built on top of bash. Best when paired with a framework for configs, plugins, and themes. Config file is called ``.zshrc`` found in ``~/.zshrc``
+ - [Oh-My-Zsh](https://github.com/ohmyzsh/ohmyzsh): Community driven framework for zsh. Tons of plugins to make your terminal experience better.
  - [jEnv](https://www.jenv.be/) : CLI to manage global and project specific JAVA versions
  - [bat](https://github.com/sharkdp/bat) : Like the cat command but with wings - Offers syntax highlighting and other features.
  - [fzf](https://github.com/junegunn/fzf) : interactive Unix filter for command-line that can be used with any list; files, command history, processes, hostnames, bookmarks, git commits, etc.
  - [exa](https://the.exa.website/) : A replacement for ls command with many features
+ - [tree](https://formulae.brew.sh/formula/tree): Display directories as trees (with optional color/HTML output)
+
 
 ## Front End
 
 ## Back End
 ---
+
+## Homebrew-Cask Quick Install List
+
+Useful programs to be installed in one command via homebrew cask:
+>`` brew install --cask \ ``\
+>``alfred \ ``\
+>``caffeine \ ``\
+>``cheatsheet \ ``\
+>``docker \ ``\
+>``dropbox \ ``\
+>``google-chrome \ ``\
+>``1password \ ``\
+>``rectangle \ ``\
+>``sublime-text \ ``\
+>``vlc \ ``\
+>``iterm2 \``\
+>``visual-studio-code``
