@@ -75,6 +75,29 @@ Base programs for basic development environment setup. Additionally, you can fin
  ## Optional Recommendations
  #### Programs
  - [DBeaver](https://dbeaver.io/) : Universal Database tool, see and edit your databases.
+ - [alfred](https://www.alfredapp.com/) : Productivity app - a better spotlight search with additional features and custom workflows
+ - [caffeine](https://intelliscapesolutions.com/apps/caffeine) : Prevent your Mac from sleeping.
+ - [cheatsheet](https://www.mediaatelier.com/CheatSheet/): hold the ⌘-Key a bit longer to get a list of all active shortcuts of the current application.
+ - [docker](https://www.docker.com/): Containerize your apps
+ - [Google Chrome](https://www.chrome.google.com): Google's web browser, the standard for developing and testing web apps
+ - [1Password](https://1password.com/): Password manager
+ - [rectangle](https://rectangleapp.com/): Use hotkeys to resize and move application windows.
+ - [sublimeText](https://www.sublimetext.com/): Fast, simple text editor
+ - [vlc](https://www.videolan.org/vlc/): Open source media player capable of playing any media codec / format
+
+ ##### Copy and paste in terminal to add these programs:
+ >`` brew install --cask \ ``\
+>``alfred \ ``\
+>``caffeine \ ``\
+>``cheatsheet \ ``\
+>``docker \ ``\
+>``google-chrome \ ``\
+>``1password \ ``\
+>``rectangle \ ``\
+>``sublime-text \ ``\
+>``vlc \ ``\
+>``dbeaver-community``
+
  #### Terminal Enhancements
  - [zsh](https://formulae.brew.sh/formula/zsh) : Z Shell, built on top of bash. Best when paired with a framework for configs, plugins, and themes. Config file is called ``.zshrc`` found in ``~/.zshrc``
  - [Oh-My-Zsh](https://github.com/ohmyzsh/ohmyzsh): Community driven framework for zsh. Tons of plugins to make your terminal experience better.
@@ -89,20 +112,3 @@ Base programs for basic development environment setup. Additionally, you can fin
 
 ## Back End
 ---
-
-## Homebrew-Cask Quick Install List
-
-Useful programs to be installed in one command via homebrew cask:
->`` brew install --cask \ ``\
->``alfred \ ``\
->``caffeine \ ``\
->``cheatsheet \ ``\
->``docker \ ``\
->``dropbox \ ``\
->``google-chrome \ ``\
->``1password \ ``\
->``rectangle \ ``\
->``sublime-text \ ``\
->``vlc \ ``\
->``iterm2 \``\
->``visual-studio-code``
