@@ -24,6 +24,7 @@ Base programs for basic development environment setup. Additionally, you can fin
  - [ ] [NodeJs](https://nodejs.org/en/)
  - [ ] [NVM](https://npm.github.io/installation-setup-docs/installing/using-a-node-version-manager.html)
  - [ ] [eslint](https://eslint.org/) (optional)
+ - [ ] [intelliJ](https://www.jetbrains.com/idea/download/#section=mac)
  
 > To install brew, copy this in your command terminal  
 > ``/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"``  
